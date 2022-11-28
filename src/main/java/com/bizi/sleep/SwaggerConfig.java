@@ -26,7 +26,7 @@ public class SwaggerConfig {  //随便的一个类名
                 .enable(true) 
                 .select()
                 //apis： 添加过滤条件,
-                .apis(RequestHandlerSelectors.basePackage("com.adu.springbootdemo.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.bizi.sleep.controller"))
                 //paths： 这里是控制哪些路径的api会被显示出来，比如下方的参数就是除了/user以外的其它路径都会生成api文档
                 .paths((String a) ->
                         !a.equals("/user"))
