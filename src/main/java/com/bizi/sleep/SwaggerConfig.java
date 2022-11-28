@@ -21,7 +21,7 @@ public class SwaggerConfig {  //随便的一个类名
         return new Docket(DocumentationType.SWAGGER_2)
                 //apiInfo： 添加api详情信息，参数为ApiInfo类型的参数，这个参数包含了第二部分的所有信息比如标题、描述、版本之类的，开发中一般都会自定义这些信息
                 .apiInfo(apiInfo())
-                .groupName("都珍文")
+                .groupName("bizi-yue")
                 //配置是否启用Swagger，如果是false，在浏览器将无法访问，默认是true
                 .enable(true) 
                 .select()
