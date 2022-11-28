@@ -38,7 +38,7 @@ public class SwaggerConfig {  //随便的一个类名
         return new ApiInfo(
                       "SpringBootDemo", // 标题
                       "springboot 整合mybatis、swagger，mysql数据库，并创建具有restful风格的增删改查示例", // 描述
-                      "版本内容：v1.0", // 版本
+                      "版本内容：v1.0  后期swagger升级knife4j", // 版本
                       "链接：http://terms.service.url/", // 组织链接
                        contact, // 联系人信息
                       "许可：Apach 2.0 ", // 许可
