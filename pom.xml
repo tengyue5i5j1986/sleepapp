@@ -29,6 +29,7 @@
 			<version>5.8.0.M4</version>
 		</dependency>
 		<!-- Lombok -->
+		<!--lombok配置-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
